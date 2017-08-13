@@ -68,19 +68,13 @@ Task  | Description
 ```
 ├── node_modules/
 ├─┬ src/
-│ ├─┬ js/
+│ ├── js/
 │ ├─┬ scss/
-│ | ├─┬ base/
-│ | | ├── _normalize.scss
-│ | | └── _typography.scss
-│ | ├─┬ components/
-│ | | └── _buttons.scss
-│ | ├─┬ helpers/
-│ | | └── _variables.scss
-│ | ├─┬ layout/
-│ | | └── _grid.scss
-│ | └─┬ vendor/
-│ |   └── _thirdpartysomething.scss
+│ | ├── base/
+│ | ├── components/
+│ | ├── helpers/
+│ | ├── layout/
+│ | └── vendor/
 │ └── index.html
 └── gulpfile.js
 ```
