@@ -1,4 +1,13 @@
-# Generator-essentials
+# generator-essentials
+
+## Table of contents
+- [Description](#description)
+- [Get started](#getstarted)
+- [What does this include?](#include)
+- [What does this generate?](#generate)
+- [Planned features](#features)
+
+<a name="description"/>
 
 ## Description
 
@@ -8,12 +17,6 @@ So, I really like using very specific packages which do their job very well, [Je
 - A scss structure that follows a philosophy, to keep all your projects consistent.
 - Flexible, responsive grid (but really).
 - Responsive typography.
-
-### Table of contents
-- [Get started](#getstarted)
-- [What does this include?](#include)
-- [What does this generate?](#generate)
-- [Planned features](#features)
 
 <a name="getstarted"/>
 
@@ -86,12 +89,11 @@ Task  | Description
 
 ## Planned features
 - Let the generator execute `npm init` in the way it's supposed to be.
-
 - Provide options and be able to pass these as flags.
   - Other preprocessor options beside SCSS.
   - Include comments in code.
-
 - Choose which npm packages you want.
+- Let Yeoman generate empty directories
 
 ## Thanks
 
