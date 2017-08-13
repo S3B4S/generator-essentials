@@ -6,8 +6,8 @@ So, I really like using very specific packages which do their job very well, [Je
 
 - No bloated stuff, only the code that you actually need.
 - A scss structure that follows a philosophy, to keep all your projects consistent.
-- Flexible, responsive grid (but really)
-- Responsive typography
+- Flexible, responsive grid (but really).
+- Responsive typography.
 
 ### Table of contents
 - [Get started](#getstarted)
@@ -19,8 +19,8 @@ So, I really like using very specific packages which do their job very well, [Je
 
 ## Get started
 
-Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this still has to happen manually.
-For more information on npm, see [here](https://docs.npmjs.com/getting-started/what-is-npm)
+Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this has to happen manually.
+For more information on npm, see [here](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ### Installing Yeoman
 
@@ -32,12 +32,12 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 
 1. Create a new directory that contains your project, this is the root directory.
 
-2. Navigate to inside this directory from terminal.
+2. Navigate inside this directory from terminal.
 
 3. Run `npm init`.
 
 4. Run `yo essentials`.
-    - You directory name is the default one, but you can set a new one.
+    - By default, your directory name will be the project name, but you can set a new one.
 
 `npm install` isn't necessary, this is taken care of by the generator.
 
@@ -73,8 +73,14 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 <a name="features"/>
 
 ## Planned features
+- Let the generator execute `npm init` in the way it's supposed to be.
+
 - Provide options and be able to pass these as flags.
   - Other preprocessor options beside SCSS.
   - Include comments in code.
 
 - Choose which npm packages you want.
+
+## Thanks
+
+Thanks MacMeep for testing the package! :tada:
