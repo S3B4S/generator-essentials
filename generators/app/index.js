@@ -1,7 +1,6 @@
 var Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
-  // this.composeWith(require.resolve('generator-npm-init/app')/*, options*/)
   prompting() {
     return this.prompt([{
       type    : 'input',
