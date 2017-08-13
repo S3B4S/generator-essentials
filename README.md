@@ -2,6 +2,13 @@
 
 ## What is it?
 
+### Table of contents
+- [Get started](#getstarted)
+- [What does this include?](#include)
+- [What does this generate?](#generate)
+
+<a name="getstarted"/>
+
 ## Get started
 
 Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this still has to happen manually.
@@ -26,7 +33,15 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 
 `npm install` isn't necessary, this is taken care of by the generator.
 
-### What does this generate?
+<a name="include"/>
+
+## What does this include?
+- [Jeet](http://jeet.gs/)
+- [Typi](https://github.com/zellwk/typi)
+
+<a name="generate"/>
+
+## What does this generate?
 ```
 ├── node_modules/
 ├─┬ src/
