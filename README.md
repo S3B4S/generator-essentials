@@ -5,6 +5,7 @@
 - [Get started](#getstarted)
 - [What does this include?](#include)
 - [What does this generate?](#generate)
+- [Philosophy behind scss structure and BEM](#scss)
 - [Planned features](#features)
 
 <a name="description"/>
@@ -72,12 +73,30 @@ Task  | Description
 │ ├─┬ scss/
 │ | ├── base/
 │ | ├── components/
-│ | ├── helpers/
+│ | ├── utils/
 │ | ├── layout/
 │ | └── vendor/
 │ └── index.html
 └── gulpfile.js
 ```
+
+<a name="scss"/>
+
+## Philosophy behind scss structure and BEM
+
+When working with scss, you really want to keep it mantained, this makes it easier for other developers to read your code, or if you have to come back to your project later on. After looking into multiple structures I went with the one that's heavily insipred from [sitepoint.com](https://www.sitepoint.com/architecture-sass-project/).
+
+One thing that's also *very* useful, is using (BEM)[https://en.bem.info/methodology/css/]. I recommend you to seperate the css that you use for each component and the css that you use to display (the space between) each component. This way, you can easily reuse the components in later projects and all you have to do is write the css code to create the spacing in between or place them at the correct position on your site. This follows the BEM philosophy.
+
+In short:
+
+Directory     | Purpose
+:------------ | :---------- 
+`base`        | This is where css which will apply 'globally' will end up, think of typography.
+`components`  | The css for each component, best to keep each seperated in its own file.
+`utils`       | This is where variables, mixins etc will end up, the utilities that come along with scss.
+`layout`      | Grid, margins and paddings between components.
+`vendor`      | Third-party code, keep it seperated so you can keep track of updates etc easily.
 
 <a name="features"/>
 
