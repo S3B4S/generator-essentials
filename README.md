@@ -27,7 +27,7 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 `npm install` isn't necessary, this is taken care of by the generator.
 
 ### What does this generate?
-
+```
 ├── node_modules/
 ├─┬ src/
 │ ├─┬ js/
@@ -45,3 +45,4 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 │ |   └── _thirdpartysomething.scss
 │ └── index.html
 └── gulpfile.js
+```
