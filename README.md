@@ -23,3 +23,25 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 
 4. Run `yo essentials`.
     - You directory name is the default one, but you can set a new one.
+
+`npm install` isn't necessary, this is taken care of by the generator.
+
+### What does this generate?
+
+├── node_modules/
+├─┬ src/
+│ ├─┬ js/
+│ ├─┬ scss/
+│ | ├─┬ base/
+│ | | ├── _normalize.scss
+│ | | └── _typography.scss
+│ | ├─┬ components/
+│ | | └── _buttons.scss
+│ | ├─┬ helpers/
+│ | | └── _variables.scss
+│ | ├─┬ layout/
+│ | | └── _grid.scss
+│ | └─┬ vendor/
+│ |   └── _thirdpartysomething.scss
+│ └── index.html
+└── gulpfile.js
