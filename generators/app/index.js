@@ -1,6 +1,7 @@
 var Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
+  // this.composeWith(require.resolve('generator-npm-init/app')/*, options*/)
   prompting() {
     return this.prompt([{
       type    : 'input',
@@ -9,14 +10,20 @@ module.exports = class extends Generator {
       default : this.appname // Default to current folder name
     }]).then((answers) => {
       this.fs.copyTpl(
-        this.templatePath('index.html'),
-        this.destinationPath('public/index.html'),
+        this.templatePath(''),
+        this.destinationPath(''),
         { title: answers.name }
       );
-      this.fs.copyTpl(
-        this.templatePath('scss'),
-        this.destinationPath('public/scss')
-      );
     });
+  }
+
+  installingNpmpackages() {
+    this.npmInstall([
+      'typi',
+      'jeet',
+      'gulp',
+      'gulp-sass',
+      'browser-sync'
+    ], { 'save-dev': true });
   }
 };
