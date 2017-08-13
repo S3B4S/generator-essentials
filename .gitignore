@@ -1,3 +1,14 @@
+##########
+# Custom #
+##########
+
+# Generated
+public/
+
+##########
+# GitHub #
+##########
+
 # Logs
 logs
 *.log

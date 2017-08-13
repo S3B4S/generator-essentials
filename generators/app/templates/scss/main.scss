@@ -1,3 +1,18 @@
-* {
-  box-sizing: <%= boxSizing %>;
-}
+// Node modules
+@import '../node_modules/typi/scss/typi';
+@import '../node_modules/jeet/jeet';
+
+// Base
+@import 'base/normalize';
+@import 'base/typography';
+
+// Components
+@import 'components/buttons';
+
+// Helpers
+@import 'helpers/variables';
+
+// Layout
+@import 'layout/grid';
+
+// Vendor

@@ -1,0 +1,16 @@
+$breakpoints: (
+  s: 600px,
+  m: 800px,
+  l: 1200px
+);
+
+$typi: (
+  base: (
+    null: (16px, 1.4),
+    s: (18px),
+    m: (19px),
+    l: (20px)
+  )
+);
+
+@include typi-init;
