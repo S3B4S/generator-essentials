@@ -1,12 +1,4 @@
 ##########
-# Custom #
-##########
-
-# Generated
-public/
-
-
-##########
 # GitHub #
 ##########
 
@@ -69,4 +61,12 @@ typings/
 # dotenv environment variables file
 .env
 
+##########
+# Custom #
+##########
+
+# Generated
+public/
+
+# Do not ignore
 !generators/app/templates/node_modules/
