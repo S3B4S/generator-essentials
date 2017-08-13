@@ -5,6 +5,7 @@
 # Generated
 public/
 
+
 ##########
 # GitHub #
 ##########
@@ -67,3 +68,5 @@ typings/
 
 # dotenv environment variables file
 .env
+
+!generators/app/templates/node_modules/
