@@ -1,5 +1,5 @@
 # generator-essentials
-<img src="https://img.shields.io/npm/v/npm.svg">
+<img src="https://img.shields.io/npm/v/generator-essentials.svg">
 
 ## Table of contents
 - [Description](#description)
