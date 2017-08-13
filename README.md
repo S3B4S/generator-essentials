@@ -43,6 +43,18 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 
 <a name="include"/>
 
+## Tasks
+
+This project makes use of [Gulp](https://gulpjs.com/) to perform its tasks. To install this globally if you haven't already:
+
+`npm install gulp-cli -g`
+
+Once installed, you can run the following tasks:
+
+Task  | Description
+:---- | :---------- 
+`gulp`| Launces your project in browser. On save: auto-refresh of browser & scss compiles to css.
+
 ## What does this include?
 - [Jeet](http://jeet.gs/)
 - [Typi](https://github.com/zellwk/typi)
