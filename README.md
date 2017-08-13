@@ -22,4 +22,4 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 3. Run `npm init`.
 
 4. Run `yo essentials`.
-  - You directory name is the default one, but you can set a new one.
+    - You directory name is the default one, but you can set a new one.
