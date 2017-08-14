@@ -106,12 +106,12 @@ Directory     | Purpose
 <a name="features"/>
 
 ## Planned features
-- Let the generator execute `npm init` in the way it's supposed to be.
-- Provide options and be able to pass these as flags.
-  - Other preprocessor options beside SCSS.
-  - Include comments in code.
-- Choose which npm packages you want.
-- Let Yeoman generate empty directories
+- [ ] Let the generator execute `npm init` in the way it's supposed to be.
+- [ ] Provide options and be able to pass these as flags.
+  - [ ] Other preprocessor options beside SCSS.
+  - [ ] Include comments in code.
+- [ ] Choose which npm packages you want.
+- [x] Let Yeoman generate empty directories
 
 ## Thanks
 Thanks MacMeep for testing the package! :tada:
