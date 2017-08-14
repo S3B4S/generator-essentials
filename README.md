@@ -26,7 +26,7 @@ So, I really like using very specific packages which do their job very well, [Je
 
 ## Get started
 
-### prerequisites
+### Prerequisites
 
 Tool                         | If it's not installed yet
 :--------------------------- | :---------- 
