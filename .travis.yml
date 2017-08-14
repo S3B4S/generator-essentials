@@ -2,3 +2,9 @@ language: node_js
 node_js:
   - "iojs"
   - "7"
+env:
+  global:
+    - CI=true
+  matrix:
+    - TEST_DOC=false
+    - TEST_DOC=true
