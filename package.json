@@ -4,7 +4,7 @@
   "description": "The essential boilerplate that includes a responsive grid and typography. Including full production ready task runner system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jypi ./generators/app/index.js"
   },
   "repository": {
     "type": "git",
