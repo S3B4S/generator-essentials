@@ -68,6 +68,9 @@ Task  | Description
 ## What does this include?
 - [Jeet](http://jeet.gs/)
 - [Typi](https://github.com/zellwk/typi)
+- [Gulp](https://gulpjs.com/)
+  - [gulp-sass](https://github.com/dlmanning/gulp-sass)
+  - [browser-sync](https://github.com/Browsersync/browser-sync)
 
 <a name="generate"/>
 
