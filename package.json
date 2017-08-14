@@ -1,6 +1,6 @@
 {
   "name": "generator-essentials",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "The essential boilerplate that includes a responsive grid and typography. Including full production ready task runner system.",
   "main": "index.js",
   "scripts": {
