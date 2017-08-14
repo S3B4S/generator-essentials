@@ -41,18 +41,13 @@ You can check your installed global packages with `npm ls -g --depth=0`.
 `npm install -g generator-essentials`
 
 ### Generating the project
-Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this has to happen manually.
-
 1. Create a new directory that contains your project, this is the root directory.
 
 2. Navigate inside this directory from terminal.
 
-3. Run `npm init`.
-
-4. Run `yo essentials`.
-    - By default, your directory name will be the project name, but you can set a new one.
-
-`npm install` isn't necessary, this is taken care of by the generator.
+3. Run `yo essentials`.
+   
+4. Follow the instructions provided.
 
 5. Happy coding!
 
@@ -109,11 +104,12 @@ Directory     | Purpose
 <a name="features"/>
 
 ## Planned features
-- [ ] Let the generator execute `npm init` in the way it's supposed to be.
+- [x] Let the generator execute `npm init` in the way it's supposed to be.
+  - [ ] sNeed to be more strict, some things are allowed in my generator that normally aren't.
 - [ ] Provide options and be able to pass these as flags.
   - [ ] Other preprocessor options beside SCSS.
   - [ ] Include comments in code.
-- [ ] Choose which npm packages you want.
+- [x] Choose which npm packages you want.
 - [x] Let Yeoman generate empty directories
 
 ## Thanks
