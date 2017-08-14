@@ -68,5 +68,9 @@ typings/
 # Generated
 public/
 
+# Notes just for the dotenv
+
+devnotes.md
+
 # Do not ignore
 !generators/app/templates/node_modules/
