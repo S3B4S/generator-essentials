@@ -4,6 +4,7 @@
 ## Table of contents
 - [Description](#description)
 - [Get started](#getstarted)
+- [Tasks](#tasks)
 - [What does this include?](#include)
 - [What does this generate?](#generate)
 - [Philosophy behind scss structure and BEM](#scss)
@@ -15,7 +16,7 @@
 
 So, I really like using very specific packages which do their job very well, [Jeet](http://jeet.gs/) and [Typi](https://github.com/zellwk/typi) for example. As I kept expanding my library of must-have small tools that make my life so much easier I started noticing that setting up the project took longer than I wanted it to be. Wouldn't it be great if I could use templates and have everything generated and installed with the command line? Yes, it would be, and that's why `generator-essentials` has been created. And it's all yours to use aswell! :smile:
 
-- No bloated stuff, only the code that you actually need.
+- No bloated stuff, only code that you actually use will be deployed.
 - A scss structure that follows a philosophy, to keep all your projects consistent.
 - Flexible, responsive grid (but really).
 - Responsive typography.
@@ -24,16 +25,20 @@ So, I really like using very specific packages which do their job very well, [Je
 
 ## Get started
 
-Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this has to happen manually.
-For more information on npm, see [here](https://docs.npmjs.com/getting-started/what-is-npm).
+### prerequisites
 
-### Installing Yeoman
+Tool                         | If you don't have it
+:--------------------------- | :---------- 
+NodeJS and npm               | https://docs.npmjs.com/getting-started/installing-node
+[Yeoman](http://yeoman.io/)  | `npm install -g yo`
+[Gulp](https://gulpjs.com/)  | `npm install gulp-cli -g`
 
-1. Install yeoman `npm install -g yo`
+### Installing generator-essentials
 
-2. Install this generator `npm install -g generator-essentials`
+1. Install this generator `npm install -g generator-essentials`
 
 ### Generating the project
+Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this has to happen manually.
 
 1. Create a new directory that contains your project, this is the root directory.
 
@@ -46,19 +51,14 @@ For more information on npm, see [here](https://docs.npmjs.com/getting-started/w
 
 `npm install` isn't necessary, this is taken care of by the generator.
 
-<a name="include"/>
+<a name="tasks"/>
 
 ## Tasks
-
-This project makes use of [Gulp](https://gulpjs.com/) to perform its tasks. To install this globally (if you haven't already):
-
-`npm install gulp-cli -g`
-
-Once installed, you can run the following tasks:
-
 Task  | Description
 :---- | :---------- 
 `gulp`| Launces your project in browser. Auto-refresh & scss compiles to css on save.
+
+<a name="include"/>
 
 ## What does this include?
 - [Jeet](http://jeet.gs/)
@@ -84,7 +84,6 @@ Task  | Description
 <a name="scss"/>
 
 ## Philosophy behind scss structure and BEM
-
 When working with scss, you really want to keep it mantained, this makes it easier for other developers to read your code, or if you have to come back to your project later on. After looking into multiple structures I went with the one that's heavily insipred from [sitepoint.com](https://www.sitepoint.com/architecture-sass-project/).
 
 One thing that's also *very* useful, is using [BEM](https://en.bem.info/methodology/css/). I recommend you to seperate the css that you use for each component and the css that you use to display (the space between) each component. This way, you can easily reuse the components in later projects and all you have to do is write the css code to create the spacing in between or place them at the correct position on your site. This follows the BEM philosophy.
@@ -110,5 +109,4 @@ Directory     | Purpose
 - Let Yeoman generate empty directories
 
 ## Thanks
-
 Thanks MacMeep for testing the package! :tada:
