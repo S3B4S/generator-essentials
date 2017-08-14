@@ -87,7 +87,7 @@ Task  | Description
 
 When working with scss, you really want to keep it mantained, this makes it easier for other developers to read your code, or if you have to come back to your project later on. After looking into multiple structures I went with the one that's heavily insipred from [sitepoint.com](https://www.sitepoint.com/architecture-sass-project/).
 
-One thing that's also *very* useful, is using (BEM)[https://en.bem.info/methodology/css/]. I recommend you to seperate the css that you use for each component and the css that you use to display (the space between) each component. This way, you can easily reuse the components in later projects and all you have to do is write the css code to create the spacing in between or place them at the correct position on your site. This follows the BEM philosophy.
+One thing that's also *very* useful, is using [BEM](https://en.bem.info/methodology/css/). I recommend you to seperate the css that you use for each component and the css that you use to display (the space between) each component. This way, you can easily reuse the components in later projects and all you have to do is write the css code to create the spacing in between or place them at the correct position on your site. This follows the BEM philosophy.
 
 In short:
 
