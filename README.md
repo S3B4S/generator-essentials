@@ -1,6 +1,5 @@
 # generator-essentials
-<img src="https://img.shields.io/npm/v/generator-essentials.svg">
-<img src="https://david-dm.org/S3B4S/generator-essentials.svg">
+<img src="https://img.shields.io/npm/v/generator-essentials.svg"> <img src="https://nodesecurity.io/orgs/dev/projects/165dccca-b683-45d8-80f5-4921d51b90f3/badge">
 
 ## Table of contents
 - [Description](#description)
