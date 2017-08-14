@@ -14,7 +14,14 @@ module.exports = class extends Generator {
         this.destinationPath(''),
         { title: answers.name }
       );
-      mkdirp.sync('node_modules');
+      mkdirp('node_modules', (err) => {
+        if (err) this.error(err)
+          else this.log('   create node_modules\\')
+      });
+      mkdirp('src/img', (err) => {
+        if (err) this.error(err)
+          else this.log('   create src\\img\\')
+      });
     });
   }
 
