@@ -1,4 +1,5 @@
 var Generator = require('yeoman-generator');
+var mkdirp = require('mkdirp');
 
 module.exports = class extends Generator {
   prompting() {
@@ -13,6 +14,7 @@ module.exports = class extends Generator {
         this.destinationPath(''),
         { title: answers.name }
       );
+      mkdirp.sync('node_modules');
     });
   }
 
