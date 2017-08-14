@@ -17,9 +17,10 @@
 So, I really like using very specific packages which do their job very well, [Jeet](http://jeet.gs/) and [Typi](https://github.com/zellwk/typi) for example. As I kept expanding my library of must-have small tools that make my life so much easier I started noticing that setting up the project took longer than I wanted it to be. Wouldn't it be great if I could use templates and have everything generated and installed with the command line? Yes, it would be, and that's why `generator-essentials` has been created. And it's all yours to use aswell! :smile:
 
 - No bloated stuff, only code that you actually use will be deployed.
-- A scss structure that follows a philosophy, to keep all your projects consistent.
+- Tasks out-of-the box! Refresh your browser and compile scss to your css automatically! No configuration needed.
 - Flexible, responsive grid (but really).
 - Responsive typography.
+- A scss structure that follows a philosophy, to keep all your projects consistent.
 
 <a name="getstarted"/>
 
