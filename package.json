@@ -4,7 +4,7 @@
   "description": "The essential boilerplate that includes a responsive grid and typography. Including full production ready task runner system.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/jypi ./generators/app/index.js"
+    "test": "./node_modules/jshint/bin/jshint test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "license": "ISC",
   "dependencies": {
     "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "mkdirp": "^0.5.1"
   }
 }
