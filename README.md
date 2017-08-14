@@ -27,15 +27,17 @@ So, I really like using very specific packages which do their job very well, [Je
 
 ### prerequisites
 
-Tool                         | If you don't have it
+Tool                         | If it's not installed yet
 :--------------------------- | :---------- 
-NodeJS and npm               | https://docs.npmjs.com/getting-started/installing-node
+[npm](https://www.npmjs.com/)| https://docs.npmjs.com/getting-started/installing-node
 [Yeoman](http://yeoman.io/)  | `npm install -g yo`
 [Gulp](https://gulpjs.com/)  | `npm install gulp-cli -g`
 
+You can check your installed global packages with `npm ls -g --depth=0`.
+
 ### Installing generator-essentials
 
-1. Install this generator `npm install -g generator-essentials`
+`npm install -g generator-essentials`
 
 ### Generating the project
 Unfortunately, at the moment `npm init` hasn't been configured within the generator itself. So for now this has to happen manually.
@@ -50,6 +52,8 @@ Unfortunately, at the moment `npm init` hasn't been configured within the genera
     - By default, your directory name will be the project name, but you can set a new one.
 
 `npm install` isn't necessary, this is taken care of by the generator.
+
+5. Happy coding!
 
 <a name="tasks"/>
 
