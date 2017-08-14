@@ -158,7 +158,33 @@ module.exports = class extends Generator {
       })
     }
 
+    // Packages to install
+    prompts.push({
+      type: 'checkbox',
+      name: 'dependencies',
+      message: 'Packages to install',
+      choices: [
+        {
+          name: 'jeet',
+          checked: true
+        },
+        {
+          name: 'typi',
+          checked: true
+        }
+      ]
+    })
+
+    // Ask to install task runner
+    prompts.push({
+      type: 'confirm',
+      name: 'task',
+      message: 'Do you want to install Gulp along its pre-configured tasks?'
+    })
+
     this.prompt(prompts).then((res) => {
+      
+      // Set package.json
       if (res.name) {
         this.package.name = res.name
       }
@@ -187,18 +213,37 @@ module.exports = class extends Generator {
         this.package.license = res.license
       }
 
+      // Iterate through selected dependencies and install them
+      res.dependencies.forEach(dependency => {
+        this.npmInstall(dependency, { 'save-dev': true });
+      })
+
+      // Install task runner depending on answer
+      if (res.task) {
+        this.npmInstall([
+          'gulp',
+          'gulp-sass',
+          'browser-sync'
+        ], { 'save-dev': true });
+      }
+
+      // Copy src/ folder over
       this.fs.copyTpl(
         this.templatePath(''),
         this.destinationPath(''),
         { title: res.name }
       );
+
+      // Generate node_modules/
       mkdirp('node_modules', (err) => {
         if (err) this.error(err)
-          else this.log('   create node_modules\\')
+          else this.log('Generate empty node_modules\\')
       });
+
+      // Generate node_modules/
       mkdirp('src/img', (err) => {
         if (err) this.error(err)
-          else this.log('   create src\\img\\')
+          else this.log('Generate empty src\\img\\')
       });
 
       done()
@@ -219,15 +264,5 @@ module.exports = class extends Generator {
     junk.forEach((e) => delete this.package[e])
 
     this.fs.writeJSON(this.destinationPath('package.json'), this.package)
-  }
-
-  installingNpmpackages() {
-    this.npmInstall([
-      'typi',
-      'jeet',
-      'gulp',
-      'gulp-sass',
-      'browser-sync'
-    ], { 'save-dev': true });
   }
 };
