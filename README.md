@@ -91,7 +91,7 @@ When working with scss, you really want to keep it mantained, this makes it easi
 
 One thing that's also *very* useful, is using [BEM](https://en.bem.info/methodology/css/). I recommend you to seperate the css that you use for each component and the css that you use to display (the space between) each component. This way, you can easily reuse the components in later projects and all you have to do is write the css code to create the spacing in between or place them at the correct position on your site. This follows the BEM philosophy.
 
-In short:
+### Summarised
 
 Directory     | Purpose
 :------------ | :---------- 
