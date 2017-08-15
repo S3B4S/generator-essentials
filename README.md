@@ -1,5 +1,7 @@
 # generator-essentials
-<img src="https://img.shields.io/npm/v/generator-essentials.svg"> <img src="https://nodesecurity.io/orgs/dev/projects/165dccca-b683-45d8-80f5-4921d51b90f3/badge"> [![Codeship](https://img.shields.io/codeship/0f9427f0-6324-0135-8d22-3601c9b40c24/master.svg)]()
+[![npm](https://img.shields.io/npm/v/generator-essentials.svg?style=flat-square)]() 
+<!-- Add this once there's a flat-square available <img src="https://nodesecurity.io/orgs/dev/projects/165dccca-b683-45d8-80f5-4921d51b90f3/badge"> -->
+[![Codeship](https://img.shields.io/codeship/0f9427f0-6324-0135-8d22-3601c9b40c24/master.svg?style=flat-square)]()
 
 ## Table of contents
 - [Description](#description)
