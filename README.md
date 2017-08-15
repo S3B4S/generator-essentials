@@ -1,5 +1,5 @@
 # generator-essentials
-<img src="https://img.shields.io/npm/v/generator-essentials.svg"> <img src="https://nodesecurity.io/orgs/dev/projects/165dccca-b683-45d8-80f5-4921d51b90f3/badge"> [![Codeship](https://img.shields.io/codeship/0f9427f0-6324-0135-8d22-3601c9b40c24.svg)]()
+<img src="https://img.shields.io/npm/v/generator-essentials.svg"> <img src="https://nodesecurity.io/orgs/dev/projects/165dccca-b683-45d8-80f5-4921d51b90f3/badge"> [![Codeship](https://img.shields.io/codeship/0f9427f0-6324-0135-8d22-3601c9b40c24/master.svg)]()
 
 ## Table of contents
 - [Description](#description)
@@ -43,7 +43,7 @@ You can check your installed global packages with `npm ls -g --depth=0`.
 ### Generating the project
 1. Create a new directory that contains your project, this is the root directory.
 
-2. Navigate inside this directory from terminal.
+2. Navigate inside this directory from terminal (Node terminal recommended).
 
 3. Run `yo essentials`.
    
@@ -109,8 +109,11 @@ Directory     | Purpose
 - [ ] Provide options and be able to pass these as flags.
   - [ ] Other preprocessor options beside SCSS.
   - [ ] Include comments in code.
+- [ ] Run tasks with `npm` instead of `gulp`.
 - [x] Choose which npm packages you want.
-- [x] Let Yeoman generate empty directories
+- [x] Let Yeoman generate empty directories.
+- [ ] Write wiki for beginners.
+   - [ ] README.md would be much more summarised and meant for advanced users.
 
 ## Thanks
 Thanks MacMeep for testing the package! :tada:
