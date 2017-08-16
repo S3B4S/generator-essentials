@@ -75,11 +75,11 @@ Task  | Description
 ├─┬ src/
 │ ├── js/
 │ ├─┬ scss/
-│ | ├── base/
-│ | ├── components/
-│ | ├── utils/
-│ | ├── layout/
-│ | └── vendor/
+│ │ ├── base/
+│ │ ├── components/
+│ │ ├── utils/
+│ │ ├── layout/
+│ │ └── vendor/
 │ └── index.html
 └── gulpfile.js
 ```
